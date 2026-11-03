@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+    color: #2c9056;
+}
+
+h1 {text-align: center;}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+h2 { color: #c940d5;}
+label {display: block; margin-top: 10px;}
+
+input {
+    padding: 7px;
+    margin-top: 5px;
+    width: 95%;
+}
+
+button {
+    background-color: #c940d5;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {background-color: #c940d5;}
+
+#grafo {min-height: 300px;border: 1px solid #ccc;}
+#historico, #logs {max-height: 300px;overflow-y: auto;}
